@@ -13,6 +13,12 @@ fun MapExample(vararg cities:String):Map<Int,String>{
     return solution
 }
 
+
+/*
+* If a number is divisible by 3 a Fizz
+* If divisible by 5 a Buzz
+* If divisible by 3 and 5 FizzBuzz
+* */
 fun FizzBuzz(check:Collection<Int>){
     for (item in check){
         if (item % 15 == 0){
